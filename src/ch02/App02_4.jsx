@@ -61,6 +61,7 @@ function TodoList({todos}) {
     // 객체 -> <li> 변환
     return <ul>
         {
+            // 반복되는게 눈에 보이면 무조건 맵을 사용해서 코드짜기
             todos.map(todo => <li>작성자: {todo.writer} 내용: {todo.content} 작성일: {todo.writeDate}</li>)
         }
     </ul>

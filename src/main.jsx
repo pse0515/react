@@ -6,6 +6,8 @@ import App02_2 from './ch02/App02_2';
 import App02_3 from './ch02/App02_3';
 import App02_4 from './ch02/App02_4';
 import App02_5 from './ch02/App02_5';
+import Inputs from './ch02/Inputs';
+import SearchName from './ch02/SearchName';
 
 const currentApp = "ch02";
 
@@ -16,8 +18,10 @@ const appObj = {
     ch02_3: <App02_3 />,
     ch02_4: <App02_4 />,
     ch02_5: <App02_5/>,
+    inputs: <Inputs />,
+    searchname: <SearchName />,
     counter: <Counter />,
 
 }
 
-createRoot(document.getElementById('root')).render(appObj.ch02_4);
+createRoot(document.getElementById('root')).render(appObj.searchname);
