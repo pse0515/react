@@ -8,8 +8,12 @@ import App02_4 from './ch02/App02_4';
 import App02_5 from './ch02/App02_5';
 import Inputs from './ch02/Inputs';
 import SearchName from './ch02/SearchName';
+import UseEffect01 from './ch03/UseEffect01';
+import UseEffect02 from './ch03/UseEffect02';
+import UseEffect03 from './ch03/UseEffect03';
+import UseEffect04 from './ch03/UseEffect04';
 
-const currentApp = "ch02";
+const currentApp = "ch03";
 
 const appObj = {
     ch01: <App01 />,
@@ -21,7 +25,11 @@ const appObj = {
     inputs: <Inputs />,
     searchname: <SearchName />,
     counter: <Counter />,
+    use01: <UseEffect01 />,
+    use02: <UseEffect02 />,
+    use03: <UseEffect03 />,
+    use04: <UseEffect04 />
 
 }
 
-createRoot(document.getElementById('root')).render(appObj.searchname);
+createRoot(document.getElementById('root')).render(appObj.use04);

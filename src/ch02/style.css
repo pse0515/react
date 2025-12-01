@@ -3,6 +3,14 @@
     box-sizing: border-box;
     border: 1px solid #dbdbdb;
     width: 500px;
+    height: 500px;
+}
+
+.title-box {
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    width: 400px;
     text-align: center;
 }
 
