@@ -12,6 +12,10 @@ import UseEffect01 from './ch03/UseEffect01';
 import UseEffect02 from './ch03/UseEffect02';
 import UseEffect03 from './ch03/UseEffect03';
 import UseEffect04 from './ch03/UseEffect04';
+import Axios01 from './ch04/Axios01';
+import Promise01 from './ch04/Promise01';
+import Axios02 from './ch04/Axios02';
+import App from './심심/App';
 
 const currentApp = "ch03";
 
@@ -28,8 +32,13 @@ const appObj = {
     use01: <UseEffect01 />,
     use02: <UseEffect02 />,
     use03: <UseEffect03 />,
-    use04: <UseEffect04 />
+    use04: <UseEffect04 />,
+    axios01: <Axios01 />,
+    axios02: <Axios02 />,
+    promise01: <Promise01/>,
+    sim01:<App/>
+
 
 }
 
-createRoot(document.getElementById('root')).render(appObj.use04);
+createRoot(document.getElementById('root')).render(appObj.sim01);

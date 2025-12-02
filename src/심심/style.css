@@ -1,0 +1,69 @@
+.scheduler-container {
+  max-width: 500px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #E0F7FA; /* 연한 파랑 배경 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.scheduler-container h1 {
+  text-align: center;
+  color: #01579B; /* 어두운 파랑 */
+  margin-bottom: 20px;
+}
+
+.scheduler-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.scheduler-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #B2EBF2;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #01579B;
+}
+
+.scheduler-form button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #4FC3F7; /* 하늘색 */
+  color: white;
+  font-weight: bold;
+}
+
+.scheduler-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.scheduler-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background-color: #FFFFFF; /* 흰색 카드 느낌 */
+  color: #37474F; /* 텍스트 어두운 회색 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.scheduler-list button {
+  background-color: #FF8A80; /* 연한 빨강 */
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+
