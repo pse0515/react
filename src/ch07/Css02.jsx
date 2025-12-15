@@ -42,8 +42,8 @@ const container = css`
     box-sizing: border-box;
     border: 1px solid #222;
     padding: 20px;
-    width: 500px;
-    height: 650px;
+    width: 800px;
+    height: 700px;
 `;
 
 const buttonController = css`
